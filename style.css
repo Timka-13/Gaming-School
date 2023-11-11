@@ -257,3 +257,14 @@ width: 220px;
 display: flex; gap: 40px;
 margin-left: 50px;
 }
+.nav-link:hover{
+    background-color: #00FF85;
+    padding: 5px;
+}
+.navuk:hover{
+color: orange;
+background-color: aqua;
+}
+.try:hover{
+background-color: red;
+}
