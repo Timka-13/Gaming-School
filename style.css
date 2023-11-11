@@ -1,0 +1,259 @@
+header{
+    height: 630px;
+    background-image: url("https://i.ibb.co/PMkMQ3C/large-IMG-4867-scaled.jpg");
+    background-size: cover;
+}
+.navus{
+    text-align: center;
+    background-color: #05FF00;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.nav-link{
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #FFF;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.info{
+    text-align: center;
+}
+
+.text{
+    color: #72B71B;
+    text-align: center;
+    margin-bottom: 73px;
+    margin-top: 73px;
+    font-size: 25px;
+
+}
+.navuk{
+    text-decoration: none;
+    background: #CD2C2C;
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    border: 3px  solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+main{
+    flex: 1 1 auto;
+}
+
+.all-divs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.direction-div {
+    width: 357px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.directions h2 {
+    color: #FE0909;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 167px;
+    -webkit-text-stroke: 1px #000000;
+}
+.direction-info h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 38px;
+    -webkit-text-stroke: 1px #000000;
+}
+.direction-info {
+    height: 420px;
+}
+.direction-text {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-grow: 1;
+    min-height: 200px;
+}
+
+.try{
+    text-decoration: none;
+    display: block;
+    background: green;
+    color: white;
+    font-size: 35px;
+    padding: 5px;
+    text-align: center;
+    border: 3px  solid black;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+
+
+.all-kibers-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.kiber{
+    margin: 25px;
+    width: 190px;
+    text-align: center;
+}
+
+.kiber p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.kibers h2{
+    color: #00FF85;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 130px;
+    -webkit-text-stroke: 1px #000000;
+}
+
+
+
+
+
+.about-us{
+padding: 95px;
+display: flex;
+justify-content: space-between;
+}
+.about-us h2{
+color: #B57957;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal
+}
+.about-us p{
+color:#000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+ line-height: normal;
+}
+.about-us-text{
+width: 574px;
+margin-bottom: 25px;
+}
+
+
+
+
+.contacts h2{
+color: #B57957;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+margin-bottom: 120px;
+}
+.contacts h3{
+color: #000;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.contacts-div p{
+color: #000;
+text-align: center;
+font-family: Roboto; 
+font-size: 36px;
+font-style: normal;
+font-weight: 400; 
+line-height: normal;
+margin-top: 85px;
+}
+
+
+
+
+
+footer{
+background-image: radial-gradient(red, aqua);
+padding: 0px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.phone{
+color: #FFF;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700; line-height: normal;
+}
+.socials{
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 24px; font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-info{
+    margin-right: 70px;
+}
+.image-right{
+width: 74px;
+float: right;
+}
+.image-left{
+width: 74px;
+float: left;
+}
+.footer-socials-img{
+float: left;
+width: 220px;
+display: flex; gap: 40px;
+margin-left: 50px;
+}
